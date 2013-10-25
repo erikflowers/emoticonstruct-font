@@ -1,9 +1,9 @@
 EmotiConstruct - Dynamic Icon-Font for use in any web application.
 ===================
 
-A dynamic, or static, icon-font for emoticons. Use them on their own, or stack them to create custom emoticons.
+A dynamic, or static, icon-font for emoticons. Use them on their own, or stack them to create custom emoticons. If you aren't familiar with how Font Awesome stacks icons, go look here first: http://fontawesome.io/examples/#stacked. I take NO credit for the innovation of this concept, I am just making a huge library of emoticon parts and pieces to take the stacking idea to a huge scale of making emoticons. Full credit is given to Font Awesome for the idea of how to do it.
 
-The way EmotiConstruct's work is the same as other icon-fonts, like Font-Awesome or Weather-Icons. The EmotiConstructs work by simply allowing you to include one like this:
+The way EmotiConstruct's work is the same as other icon-fonts, like Font-Awesome. The EmotiConstructs work by simply allowing you to include one like this:
 
 <i class="ec-smile"></i>
 
@@ -16,7 +16,7 @@ But, the real radness is making your own emoticons:
     <i class="ec-square-face-base"></i>
   </i>
 ```
-This could be made like this:  =]:([] (or something)
+This could be made like this:  =]:([] (or something). OR, if you just want them to be in a visual wysiwyg style emoticon chooser, the user would just see the Abraham Lincoln and have no clue that it's actually just components stacked on top of eachother to create infinite custom emoticons.
 
 This would make a Abraham Lincon looking emoticon, all with the font glyphs stacked to look like a singular icon. This allows you to make anything you want as part of your project, or use a system where your users could construct them through ASCII.
 
